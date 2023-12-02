@@ -1,4 +1,4 @@
-word_to_num = {
+WORD_TO_NUM = {
     'one': '1',
     'two': '2',
     'three': '3',
@@ -24,7 +24,7 @@ def main():
             length = len(line)
 
             for index in range(length):
-                for word, digit in word_to_num.items():
+                for word, digit in WORD_TO_NUM.items():
                     if line.startswith(word, index) or line[index] == digit:
                         pair = (index, digit)
                         matches.append(pair)
