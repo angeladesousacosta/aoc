@@ -1,5 +1,6 @@
 CONFIG = {'red': 12, 'green': 13, 'blue': 14}
 
+
 def main():
     with open('input/record.txt', 'r') as file:
         good = {}
