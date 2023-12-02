@@ -27,6 +27,7 @@ def main():
             max_num = {color: max(num) for color, num in my_dict.items()}
 
             total = 1
+
             for i in max_num:
                 total = total * int(max_num[i])
 

@@ -23,6 +23,7 @@ def main():
                 good[index].append(int(num) <= CONFIG[color])
 
         total = []
+
         for k, v in good.items():
             if all(x is True for x in v):
                 total.append(k)
